@@ -8,9 +8,9 @@ export default function MyTasks() {
 
             <div className="board">
 
-                <TaskCard title="Título da Task" status="Status" dueDate="Data limite: 00/00 00:00"/>
-                <TaskCard title="Título da Task" status="Status"/>
-
+                <TaskCard title="Título da Task: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur rerum eveniet nemo odio maxime earum?" status="Status" dueDate="00/00 00:00"/>
+                <TaskCard title="Título da Task: Lorem ipsum dolor sit amet, consectetur adipisicing elit." status="Status"/>
+                
             </div>
 
         </section>

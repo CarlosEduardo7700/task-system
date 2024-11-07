@@ -50,17 +50,17 @@ html, body {
   @apply p-24;
 
   h1 {
-    @apply text-3xl font-semibold;
+    @apply text-3xl font-semibold text-center;
   }
 
   .board {
-    @apply mt-5 flex flex-wrap justify-center gap-4;
+    @apply mt-5 flex flex-wrap justify-center items-start gap-4;
 
     .task-card {
-      @apply p-2 min-h-36 max-h-40 min-w-64 max-w-72 border-2 border-black rounded-lg shadow-lg shadow-black flex flex-col justify-around gap-2 hover:scale-105 transition-transform;
+      @apply p-2 min-h-36 min-w-64 max-w-80 border-2 border-black rounded-lg shadow-lg shadow-black flex flex-col justify-around gap-2 hover:scale-105 transition-transform;
 
       h2 {
-        @apply font-bold;
+        @apply font-bold break-words;
       }
 
       .task-status {
@@ -68,7 +68,7 @@ html, body {
       }
 
       .due-date {
-        @apply bg-red-600 text-white rounded-3xl text-center;
+        @apply bg-red-600 hover:bg-red-700 duration-500 text-white w-1/2 mx-auto rounded-3xl text-center;
       }
     }
   }
